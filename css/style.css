@@ -1,0 +1,34 @@
+body {
+    height: 100%;
+    background-color: #9079b3;
+}
+/* font variables */
+:root {
+    --header-font: 'Shadows Into Light', cursive;
+    --body-font: 'Raleway', sans-serif;
+}
+.navbar {
+    font-size: 1.5rem;
+    background-color: #9079b3;
+}
+.navbar-light .navbar-toggler {
+    border: none;
+}
+a.nav-link {
+    padding: 0 15px !important;
+}
+a.navbar-brand {
+    flex-direction: column;
+    justify-content: center;
+}
+header {
+    font-family: var(--header-font);
+    font-size: 1.75rem;
+}
+main > .container {
+    padding-top: 60px;
+}
+main div {
+    background-size: 500px;
+    background-color: #9079b3;
+}
