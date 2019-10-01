@@ -7,6 +7,15 @@ body {
     --header-font: 'Shadows Into Light', cursive;
     --body-font: 'Raleway', sans-serif;
 }
+main {
+    text-align: center;
+}
+main h5 {
+    margin: 25px 0 0 0;
+}
+main div {
+    margin: 25px;
+}
 .navbar {
     font-size: 1.5rem;
     background-color: #9079b3;
