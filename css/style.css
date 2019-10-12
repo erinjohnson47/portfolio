@@ -1,24 +1,28 @@
-body {
-    height: 100%;
-    background-color: #9079b3;
+.bg { 
+    /* The image used */
+    background-image: url("../images/Portfolio-Background.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-/* font variables */
+
+/* font/color variables */
 :root {
     --header-font: 'Shadows Into Light', cursive;
     --body-font: 'Raleway', sans-serif;
+    --primary-color:  #9079b3;
 }
 main {
     text-align: center;
 }
-main h5 {
-    margin: 25px 0 0 0;
-}
-main div {
-    margin: 25px;
-}
+
 .navbar {
     font-size: 1.5rem;
-    background-color: #9079b3;
 }
 .navbar-light .navbar-toggler {
     border: none;
@@ -32,12 +36,6 @@ a.navbar-brand {
 }
 header {
     font-family: var(--header-font);
-    font-size: 1.75rem;
+    font-size: 1.25rem;
 }
-main > .container {
-    padding-top: 60px;
-}
-main div {
-    background-size: 500px;
-    background-color: #9079b3;
-}
+

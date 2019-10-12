@@ -1,4 +1,4 @@
-![erin icon](images/ErinIcon.png)
+![erin icon](images/ErinIconCopy.png)
 
 # Erin Johnson's Developer Portfolio
 
