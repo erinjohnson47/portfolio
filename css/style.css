@@ -1,4 +1,4 @@
-.bg { 
+.bg {
     /* The image used */
     background-image: url("../images/Portfolio-Background.png");
 
@@ -49,15 +49,15 @@ header {
 #site-btn {
     background-color:var(--teal-color);
     border-color: var(--teal-color);
+    color: #fff;
 }
 #site-btn:hover {
     background-color:var(--yellow2-color);
 }
-
-
 #code-btn {
     background-color:var(--orange-color);
     border-color: var(--orange-color);
+    color: #fff;
 }
 #code-btn:hover {
     background-color:var(--yellow2-color);
