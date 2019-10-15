@@ -46,23 +46,30 @@ header {
     text-align: center;
 }
 
-#site-btn {
+#btn1 {
     background-color:var(--teal-color);
     border-color: var(--teal-color);
     color: #fff;
 }
-#site-btn:hover {
+#btn1:hover {
     background-color:var(--yellow2-color);
 }
-#code-btn {
+#btn2 {
     background-color:var(--orange-color);
     border-color: var(--orange-color);
     color: #fff;
 }
-#code-btn:hover {
+#btn2:hover {
     background-color:var(--yellow2-color);
 }
-
+#btn3 {
+    background-color:var(--purple-color);
+    border-color: var(--purple-color);
+    color: #fff;
+}
+#btn3:hover {
+    background-color:var(--yellow2-color);
+}
 a:link {
     color: inherit;
 
