@@ -22,6 +22,7 @@
 }
 main {
     text-align: center;
+    font-family: var(--body-font);
 }
 
 .navbar-light .navbar-toggler {
@@ -42,13 +43,37 @@ header {
 .jumbotron {
     background-color: var(--purple-color);
     color: #fff !important;
+    text-align: center;
 }
 
 #site-btn {
     background-color:var(--teal-color);
     border-color: var(--teal-color);
 }
+#site-btn:hover {
+    background-color:var(--yellow2-color);
+}
+
+
 #code-btn {
     background-color:var(--orange-color);
     border-color: var(--orange-color);
+}
+#code-btn:hover {
+    background-color:var(--yellow2-color);
+}
+
+a:link {
+    color: inherit;
+
+}
+a:visited {
+    color: inherit;
+}
+a:hover {
+    color: var(--orange-color)
+}
+
+a:active {
+    color: var(--orange-color)
 }
