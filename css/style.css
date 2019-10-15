@@ -46,29 +46,29 @@ header {
     text-align: center;
 }
 
-#btn1 {
-    background-color:var(--teal-color);
+.btn1 {
+    background-color: var(--teal-color);
     border-color: var(--teal-color);
-    color: #fff;
+    color: #fff !important;
 }
-#btn1:hover {
-    background-color:var(--yellow2-color);
+.btn1:hover {
+    background-color: var(--yellow2-color);
 }
-#btn2 {
-    background-color:var(--orange-color);
+.btn2 {
+    background-color: var(--orange-color);
     border-color: var(--orange-color);
-    color: #fff;
+    color: #fff !important;
 }
-#btn2:hover {
-    background-color:var(--yellow2-color);
+.btn2:hover {
+    background-color: var(--yellow2-color);
 }
-#btn3 {
-    background-color:var(--purple-color);
+.btn3 {
+    background-color: var(--purple-color);
     border-color: var(--purple-color);
-    color: #fff;
+    color: #fff !important;
 }
-#btn3:hover {
-    background-color:var(--yellow2-color);
+.btn3:hover {
+    background-color: var(--yellow2-color);
 }
 a:link {
     color: inherit;
