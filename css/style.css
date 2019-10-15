@@ -15,7 +15,11 @@
 :root {
     --header-font: 'Shadows Into Light', cursive;
     --body-font: 'Raleway', sans-serif;
-    --primary-color:  #9079b3;
+    --purple-color:  #8D68A5;
+    --teal-color: #04D8C3;
+    --yellow1-color: #F2CA04;
+    --yellow2-color: #F2B604;
+    --orange-color: #F27C37;
 }
 main {
     text-align: center;
@@ -37,5 +41,9 @@ a.navbar-brand {
 header {
     font-family: var(--header-font);
     font-size: 1.25rem;
+}
+
+.jumbotron {
+    background: var(--purple-color);
 }
 
