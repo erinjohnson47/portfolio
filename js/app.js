@@ -21,4 +21,8 @@ const projectTech = document.getElementById('project-tech')
 
 // const newJumbotron = projectShell.cloneNode(true);
 
+const moreAboutMe = document.getElementById('see-more');
+const ariaAtrribute = moreAboutMe.getAttribute('aria-expanded');
 
+moreAboutMe.addEventListener("onclick", () =>  ariaAtrribute ? moreAboutMe.innerText = "... less about me" : moreAboutMe.innerText = "more about me ...");
+console.log(moreAboutMe)
