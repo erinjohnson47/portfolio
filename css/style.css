@@ -52,6 +52,7 @@ header {
     color: #fff !important;
 }
 .btn1:hover {
+    color: var(--purple-color);
     background-color: var(--yellow2-color);
 }
 .btn2 {
@@ -60,15 +61,17 @@ header {
     color: #fff !important;
 }
 .btn2:hover {
+    color: var(--purple-color);
     background-color: var(--yellow2-color);
 }
 .btn3 {
-    background-color: var(--purple-color);
-    border-color: var(--purple-color);
+    background-color: var(--yellow2-color);
+    border-color: var(--yellow2-color);
     color: #fff !important;
 }
 .btn3:hover {
-    background-color: var(--yellow2-color);
+    color: var(--purple-color);
+    background-color: var(--yellow1-color);
 }
 a:link {
     color: inherit;
