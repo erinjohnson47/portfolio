@@ -19,6 +19,20 @@ main {
     text-align: center;
     font-family: var(--body-font);
 }
+.image-with-project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+@media only screen and (max-width: 780px) {
+    .image-with-project {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
 #see-less {
     display: none;
 }
