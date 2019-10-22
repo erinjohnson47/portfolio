@@ -19,7 +19,9 @@ main {
     text-align: center;
     font-family: var(--body-font);
 }
-
+#see-less {
+    display: none;
+}
 .navbar-light .navbar-toggler {
     border: none;
 }
