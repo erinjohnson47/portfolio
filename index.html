@@ -48,7 +48,7 @@
     <div class='bg'>
     <header>
         <div class='container'>
-        <nav class="navbar navbar-expand-sm navbar-light" data-spy="affix"  data-offset-top="197">
+        <nav class="navbar navbar-expand-sm navbar-light">
             <a class="navbar-brand" href="#">
                 <img src='images/ErinIconCopy.png' width="75" height="auto" alt="girl on laptop, laptop has large dog icon">
                 </img>
@@ -77,7 +77,8 @@
                             class="nav-link" 
                             href="./ErinJohnson_FullStackWebDeveloper.pdf"
                             target="_blank"
-                            download="ErinJohnson_FullStackWebDeveloper">resume<span class="sr-only"></span></a>
+                            title='ErinJohnson_FullStackResume.pdf, opens in a new window'
+                            >resume<span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#connect-with-me">contact<span class="sr-only"></span></a>
@@ -90,20 +91,22 @@
     <main>
         <div class="container">
             <h1 id="about-me">about me</h1>
-                <div>
-                <p>I'm a full stack web developer living in Los Angeles, California. I spent 9 years in the legal industry before transitioning to computer programming. While the industries are vastly different, I've been able to apply my impeccable attention to detail, creative problem-solving strategies, and a passion for continuous growth and education to my new career.
-                <p>
+            <div class="jumbotron" id='about'>
+                <div id='project1-details'>
+                    <p>I'm a full stack web developer living in Los Angeles, California. I spent 9 years in the legal industry before transitioning to computer programming. While the industries are vastly different, I've been able to apply my impeccable attention to detail, creative problem-solving strategies, and a passion for continuous growth and education to my new career.
+                    <p>
                     <a class="btn btn-link" id="see-more" data-toggle="collapse" href="#more-about-me" role="button" aria-expanded="false" aria-controls="more-about-me">   
-                        more about me ...
+                    more about me ...
                     </a>
                     <a class="btn btn-link" id="see-less" data-toggle="collapse" href="#more-about-me" role="button" aria-expanded="true" aria-controls="more-about-me">
-                        less about me ...
+                    ... less about me
                     </a>
-                </p>
+                    </p>
                     <div class='collapse' id='more-about-me'>
-                    <p>I learn very quickly, I’m motivated, and have a positive attitude. I recently spent three months General Assembly (420 hours of instruction), becoming a dedicated and proficient programmer. I’ve developed several web apps in full-stack web development, specifically using the MERN-stack, among other technologies. Most importantly, I learned how to debug, problem solve, and continue to self teach. I take pride in my work and I’m continuously looking for ways to grow as a developer and a teammate. I approach problems and tasks as puzzles that can be solved and love analyzing the different ways the pieces fit together to create a whole picture that results in a great experience for the user and for my teammates.</p> 
-                    <p>When I'm not programming, I'm usually found gardening, hiking with my dog, eating all the foods, traveling to somewhere new, reading a book, supporting a local sports team (go Kings go!), or riding my bike at CicLAvia!</p>
+                        <p>I learn very quickly, I’m motivated, and have a positive attitude. I recently spent three months General Assembly (420 hours of instruction), becoming a dedicated and proficient programmer. I’ve developed several full-stack web apps, specifically using the MERN-stack, among other technologies. Most importantly, I learned how to debug, problem solve, and continue to self teach. I take pride in my work and I’m continuously looking for ways to grow as a developer and a teammate. I approach problems and tasks as puzzles that can be solved and love analyzing the different ways the pieces fit together to create a whole picture that results in a great experience for the user and for my teammates.</p> 
+                        <p>When I'm not programming, I'm usually found gardening, hiking with my dog, eating all the foods, traveling to somewhere new, reading a book, supporting a local sports team (go Kings go!), or riding my bike at CicLAvia!</p>
                     </div>
+                </div>
                 </div>
             <h1 id="projects">my projects</h1>
             <div class="jumbotron" id='project1'>
@@ -113,15 +116,21 @@
                 <p class="lead" id='project-one-liner'>"Crowd Favorite" Award-winning project</p>
                 <hr class="my-4">
                 <div id='project1-details'>
-                    <p><a href='https://www.goodfoodla.org/' target='_blank' title="goodfoodla.org, opens in a new window">LA Food Policy Council</a> (LAFPC) "serves as [the] backbone organization for a network of over 400 organizations and agencies working for healthy, sustainable and fair food." In order to provide relevant and reliable data to these organizations, to policy-makers, and to members of the community, LAFPC needs a dashboard that displays this data in a digestible way that can be used by these organizations and individuals to effect change in their communities and to work toward LAFPC's Mission, "to ensure food is healthy, affordable, fair and sustainable for all."</p>
-                    <p>General Assembly partnered with LA Food Policy Council for a Social Impact Hackathon where four teams of UX Designers and Developers partnered up to create a Food System Dashboard for LAFPC to better serve their community in the name of "Good Food For All."  After three days of around-the-clock coding, our team’s hard work paid off. Our web app won the “Crowd Favorite" Award at the General Assembly Social Impact Hackathon. We are all very proud of our project and of each other!</p>
+                    <p>General Assembly partnered with the <a href='https://www.goodfoodla.org/' target='_blank' title="goodfoodla.org, opens in a new window">LA Food Policy Council</a> (LAFPC) for a Social Impact Hackathon to create a Food System Dashboard to aggregate and display data from numerous sources for LAFPC to better serve their community in the name of "Good Food For All."  After three days of around-the-clock coding, our team’s hard work paid off. Our web app won the “Crowd Favorite" Award.</p>
                 </div>
                 <hr class="my-2">
-                <p class="lead" id='project-tech'>Technologies</p>
-                Javascript | HTML | CSS | Styled Components | React.js | Node.js | Google Firebase/Realtime | Database | Google Drive | Figma
-                <hr class="my-2">
-                    <a class="btn btn1" href='https://lafpc-food-dashboard.firebaseapp.com' role='button' target='_blank'>View Site</a></button>
-                    <a class="btn btn2" href='https://github.com/erinjohnson47/lafpc-food-dashboard' role='button' target='_blank'>View Code</a></button>
+                    <p class="lead" id='project-tech'>Technologies</p>
+                    <p>
+                    Javascript | HTML | CSS | Styled Components | React.js | Node.js | Google Firebase/Realtime Database | Google Drive | Figma
+                    </p>
+                    <p class="lead" id='project-tech'>Why We Selected These</p>
+                    <p>React: for its reusable components, ease of styling with styled components, and the benefits of a single-page web app. </br> Firebase/Google Sheets API: for its ability to directly integrate with the google sheets API, which was an important feature for LAFPC, a small non-profit already using google sheets, and no tech team to help them transition to/manage a database. </p>
+                    <hr class="my-2">
+                        <a class="btn btn1" href='https://lafpc-food-dashboard.firebaseapp.com' role='button' target='_blank'>View Site</a></button>
+                        <a class="btn btn2" href='https://github.com/erinjohnson47/lafpc-food-dashboard' role='button' target='_blank'>View Code</a></button>
+                    <hr class="my-2">
+                    <p class="lead" id='project-tech'>My Favorite Thing About this Project</p>
+                    <p>This project gave me the opportunity for the first time to work with UX/UI designers and I am very proud of the fact that we worked well with the developers and were able to deliver the product as expected/designed.</p>
             </div>
             <div class="jumbotron" id='project3'>
                 <h1 class="display-5" id='project-title-3'>Pantry Pal</h1>
@@ -130,18 +139,23 @@
                         <p class="lead" id='project3-one-liner'>An inventory tracker of all your food.</p>
                         <p>Pantry pal is a web app that allows users to keep a digital inventory of the food they have at home and track how much is left of an open item and when an item expires.
                         </p>
-                        <p> This web app is a MERN-stack app.  Features I'm particularly proud of include: making only one call to get all food from the database and then filtering that data based on "activeItem" in state so that it displays only the food located in "fridge," "freezer,"" or "pantry."</p>
-                        <p>This app is a work in progress and still needs some styling as well as to complete the ability to edit an existing item (update/put route) for full CRUD functionality. Coming soon!</p>
                     </div>
                     <img id='project-image-3' src="images/pantrypal.gif" alt="gif demonstrating changed view when clicking between active tabs - refrigerator, pantry, freezer" height='68%' width='68%'/>
                 </div>  
                 <hr class="my-2">
                 <p class="lead" id='project3-tech'>Technologies</p>
+                <p>
                 JavaScript | HTML5 | CSS3 | Node.js | Express.js | MongoDB | Mongoose | React.js | Semantic React UI
+                </p>
+                <p class="lead" id='project-tech'>Why I Selected These</p>
+                <p> React: I enjoy working with it and wanted to practice with it more. </br> MongoDB: Great scalability; will be easy to update as I continue to add additional features.</p> 
                 <hr class="my-2">
                 <a class="btn btn1" href='https://my-pantry-pal.herokuapp.com/' role='button' target='_blank'>View Site</a></button>
                 <a class="btn btn2" href='https://github.com/erinjohnson47/pantry-pal' role='button' target='_blank'>View Front-End Code</a></button>
                 <a class="btn btn4" href='https://github.com/erinjohnson47/pantry-pal-API' role='button' target='_blank'>View Back-End Code</a></button>
+                <hr class="my-2">
+                <p class="lead" id='project-tech'>My Favorite Thing About this Project</p>
+                <p>A feature I'm particularly proud of: making only one call to get all food from the database and then filtering that data based on "activeItem" in state so that it displays only the food located in "fridge," "freezer," or "pantry."</p>
             </div>
             <div class="jumbotron" id='project2'>
                 <h1 class="display-5" id='project-title-2'>Memeodex</h1>

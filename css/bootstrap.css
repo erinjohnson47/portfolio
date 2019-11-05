@@ -4067,6 +4067,7 @@ input[type="button"].btn-block {
 
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
+  font-size: 110%;
 }
 
 .nav-link.disabled {
@@ -7772,7 +7773,7 @@ button.bg-dark:focus {
   position: fixed !important;
 }
 
-.position-sticky {
+.nav-item.show {
   position: -webkit-sticky !important;
   position: sticky !important;
 }

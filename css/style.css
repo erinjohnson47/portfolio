@@ -10,11 +10,15 @@
     --header-font: 'Shadows Into Light', cursive;
     --body-font: 'Raleway', sans-serif;
     --purple-color:  #8D68A5;
+    --purple-hover: rgb(122, 88, 147);
     --teal-color: #04D8C3;
+    --teal-hover: rgb(115, 220, 209);
     --yellow1-color: #F2CA04;
     --yellow2-color: #F2B604;
     --orange-color: #F27C37;
+    --orange-hover: rgb(242, 99, 16);
 }
+
 main {
     text-align: center;
     font-family: var(--body-font);
@@ -31,7 +35,7 @@ main {
         display: flex;
         flex-direction: column;
     }
-  }
+}
 
 #see-less {
     display: none;
@@ -50,6 +54,9 @@ header {
     font-family: var(--header-font);
     font-size: 1.25rem;
 }
+.lead {
+    color: var(--yellow1-color);
+}
 
 .jumbotron {
     background-color: var(--purple-color);
@@ -63,7 +70,8 @@ header {
     color: #fff !important;
 }
 .btn1:hover {
-    background-color: var(--yellow2-color);
+    background-color: var(--teal-hover);
+    border-color: var(--teal-color);
 }
 .btn2 {
     background-color: var(--orange-color);
@@ -71,7 +79,7 @@ header {
     color: #fff !important;
 }
 .btn2:hover {
-    background-color: var(--yellow2-color);
+    background-color: var(--orange-hover);
 }
 .btn3 {
     background-color: var(--purple-color);
@@ -79,7 +87,8 @@ header {
     color: #fff !important;
 }
 .btn3:hover {
-    background-color: var(--yellow2-color);
+    background-color: var(--purple-hover);
+
 }
 .btn4 {
     background-color: var(--yellow2-color);
