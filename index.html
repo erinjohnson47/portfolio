@@ -90,24 +90,6 @@
     </header>
     <main>
         <div class="container">
-            <h1 id="about-me">about me</h1>
-            <div class="jumbotron" id='about'>
-                <div id='project1-details'>
-                    <p>I'm a full stack web developer living in Los Angeles, California. I spent 9 years in the legal industry before transitioning to computer programming. While the industries are vastly different, I've been able to apply my impeccable attention to detail, creative problem-solving strategies, and a passion for continuous growth and education to my new career.
-                    <p>
-                    <a class="btn btn-link" id="see-more" data-toggle="collapse" href="#more-about-me" role="button" aria-expanded="false" aria-controls="more-about-me">   
-                    more about me ...
-                    </a>
-                    <a class="btn btn-link" id="see-less" data-toggle="collapse" href="#more-about-me" role="button" aria-expanded="true" aria-controls="more-about-me">
-                    ... less about me
-                    </a>
-                    </p>
-                    <div class='collapse' id='more-about-me'>
-                        <p>I learn very quickly, I’m motivated, and have a positive attitude. I recently spent three months General Assembly (420 hours of instruction), becoming a dedicated and proficient programmer. I’ve developed several full-stack web apps, specifically using the MERN-stack, among other technologies. Most importantly, I learned how to debug, problem solve, and continue to self teach. I take pride in my work and I’m continuously looking for ways to grow as a developer and a teammate. I approach problems and tasks as puzzles that can be solved and love analyzing the different ways the pieces fit together to create a whole picture that results in a great experience for the user and for my teammates.</p> 
-                        <p>When I'm not programming, I'm usually found gardening, hiking with my dog, eating all the foods, traveling to somewhere new, reading a book, supporting a local sports team (go Kings go!), or riding my bike at CicLAvia!</p>
-                    </div>
-                </div>
-                </div>
             <h1 id="projects">my projects</h1>
             <div class="jumbotron" id='project1'>
                 <h1 class="display-5" id='project-title-1'>LA Food Policy Council</h1>
@@ -123,39 +105,36 @@
                     <p>
                     Javascript | HTML | CSS | Styled Components | React.js | Node.js | Google Firebase/Realtime Database | Google Drive | Figma
                     </p>
-                    <p class="lead" id='project-tech'>Why We Selected These</p>
-                    <p>React: for its reusable components, ease of styling with styled components, and the benefits of a single-page web app. </br> Firebase/Google Sheets API: for its ability to directly integrate with the google sheets API, which was an important feature for LAFPC, a small non-profit already using google sheets, and no tech team to help them transition to/manage a database. </p>
+                    <!-- <p class="lead" id='project-tech'>Why We Selected These</p>
+                    <p>React: for its reusable components, ease of styling with styled components, and the benefits of a single-page web app. </br> Firebase/Google Sheets API: for its ability to directly integrate with the google sheets API, which was an important feature for LAFPC, a small non-profit already using google sheets, and no tech team to help them transition to/manage a database. </p> -->
                     <hr class="my-2">
                         <a class="btn btn1" href='https://lafpc-food-dashboard.firebaseapp.com' role='button' target='_blank'>View Site</a></button>
                         <a class="btn btn2" href='https://github.com/erinjohnson47/lafpc-food-dashboard' role='button' target='_blank'>View Code</a></button>
-                    <hr class="my-2">
+                    <!-- <hr class="my-2">
                     <p class="lead" id='project-tech'>My Favorite Thing About this Project</p>
-                    <p>This project gave me the opportunity for the first time to work with UX/UI designers and I am very proud of the fact that we worked well with the developers and were able to deliver the product as expected/designed.</p>
+                    <p>This project gave me the opportunity for the first time to work with UX/UI designers and I am very proud of the fact that we worked well with the developers and were able to deliver the product as expected/designed.</p> -->
             </div>
             <div class="jumbotron" id='project3'>
                 <h1 class="display-5" id='project-title-3'>Pantry Pal</h1>
-                <div class='image-with-project'>
-                    <div id='project3-details'>
-                        <p class="lead" id='project3-one-liner'>An inventory tracker of all your food.</p>
-                        <p>Pantry pal is a web app that allows users to keep a digital inventory of the food they have at home and track how much is left of an open item and when an item expires.
-                        </p>
-                    </div>
+                <div id='project3-details'>
                     <img id='project-image-3' src="images/pantrypal.gif" alt="gif demonstrating changed view when clicking between active tabs - refrigerator, pantry, freezer" height='68%' width='68%'/>
-                </div>  
+                    <p class="lead" id='project3-one-liner'>An inventory tracker of all your food.</p>
+                    <p>Pantry pal is a web app that allows users to keep a digital inventory of the food they have at home and track how much is left of an open item and when an item expires.</p>
+                    </div>
                 <hr class="my-2">
                 <p class="lead" id='project3-tech'>Technologies</p>
                 <p>
                 JavaScript | HTML5 | CSS3 | Node.js | Express.js | MongoDB | Mongoose | React.js | Semantic React UI
                 </p>
-                <p class="lead" id='project-tech'>Why I Selected These</p>
-                <p> React: I enjoy working with it and wanted to practice with it more. </br> MongoDB: Great scalability; will be easy to update as I continue to add additional features.</p> 
+                <!-- <p class="lead" id='project-tech'>Why I Selected These</p>
+                <p> React: I enjoy working with it and wanted to practice with it more. </br> MongoDB: Great scalability; will be easy to update as I continue to add additional features.</p>  -->
                 <hr class="my-2">
                 <a class="btn btn1" href='https://my-pantry-pal.herokuapp.com/' role='button' target='_blank'>View Site</a></button>
                 <a class="btn btn2" href='https://github.com/erinjohnson47/pantry-pal' role='button' target='_blank'>View Front-End Code</a></button>
                 <a class="btn btn4" href='https://github.com/erinjohnson47/pantry-pal-API' role='button' target='_blank'>View Back-End Code</a></button>
-                <hr class="my-2">
+                <!-- <hr class="my-2">
                 <p class="lead" id='project-tech'>My Favorite Thing About this Project</p>
-                <p>A feature I'm particularly proud of: making only one call to get all food from the database and then filtering that data based on "activeItem" in state so that it displays only the food located in "fridge," "freezer," or "pantry."</p>
+                <p>A feature I'm particularly proud of: making only one call to get all food from the database and then filtering that data based on "activeItem" in state so that it displays only the food located in "fridge," "freezer," or "pantry."</p> -->
             </div>
             <div class="jumbotron" id='project2'>
                 <h1 class="display-5" id='project-title-2'>Memeodex</h1>
@@ -163,8 +142,8 @@
                 <p class="lead" id='project2-one-liner'>A virtual roledex of all your favorite memes!</p>
                 <hr class="my-4">
                 <div id='project2-details'>
-                    <p>Memeodex is a personal database of internet memes curated by you, for you, to store links to your favorite memes - be it gifs, images, videos - if it lives on the internet, it can live in your database too! Any time you come across a meme you want to reference later, you store it in your database and behold you have a quick reference to that funny meme at the tip of your fingertips!</p>
-                    <p>Memeodex uses the MEN-stack (MongoDB, express, and node) and embedded JS (ejs) to style the various show pages. We also used this project to incorporate and demonstrate our knowledge of custom middleware, bcrypt auth, and API REST architecture.</p>
+                    <p>Memeodex is a database of internet memes curated by you, for you, to store links to your favorite memes - be it gifs, images, videos - if it lives on the internet, it can live in your database too! Any time you come across a meme you want to reference later, you store it in your database for a quick reference to that funny meme!</p>
+                    <!-- <p>Memeodex uses the MEN-stack (MongoDB, express, and node) and embedded JS (ejs) to style the various show pages. We also used this project to incorporate and demonstrate our knowledge of custom middleware, bcrypt auth, and API REST architecture.</p> -->
                 </div>
                 <hr class="my-2">
                 <p class="lead" id='project2-tech'>Technologies</p>
@@ -175,15 +154,13 @@
             </div>
             <div class="jumbotron" id='project4'>
                 <h1 class="display-5" id='project-title-4'>Frogger</h1>
-                <div class='image-with-project'>
                     <img id='project-image-4' src="images/frogger-gif.gif" alt="gif of one round of frogger game play jumping from grass across road and across water" height='70%' width='70%'/>
                     <div id='project4-details'>
                         <p class="lead" id='project4-one-liner'>Classic Frogger, slightly reimagined!</p>
                         <p>I recreated the classic arcade game Frogger, where a player uses arrow keys to get her frog across the road and river to the safety of the lily pads.</p>
-                        <p>Implemented vanilla JS for the user to interact with the DOM for a smooth game-playing experience, with responsive movement and collision detection.
+                        <!-- <p>Implemented vanilla JS for the user to interact with the DOM for a smooth game-playing experience, with responsive movement and collision detection.
                         </p>
-                        <p>Successfully used flexbox CSS to design a sleek, yet retro-looking gameboard that adheres to the classic arcade pixelated look and feel but with modern CSS.</p>
-                    </div>
+                        <p>Successfully used flexbox CSS to design a sleek, yet retro-looking gameboard that adheres to the classic arcade pixelated look and feel but with modern CSS.</p> -->
                 </div>
                 <hr class="my-2">
                 <p class="lead" id='project4-tech'>Technologies</p>
@@ -191,6 +168,24 @@
                 <hr class="my-2">
                     <a class="btn btn1" href='https://erinjohnson47.github.io/frogger/' role='button' target='_blank'>View Site</a></button>
                     <a class="btn btn2" href='https://github.com/erinjohnson47/frogger' role='button' target='_blank'>View Code</a></button>
+            </div>
+            <h1 id="about-me">about me</h1>
+        <div class="jumbotron" id='about'>
+            <div id='project1-details'>
+                <p>I'm a full stack web developer living in Los Angeles, California. I spent 9 years in the legal industry before transitioning to computer programming. While the industries are vastly different, I've been able to apply my impeccable attention to detail, creative problem-solving strategies, and a passion for continuous growth and education to my new career.
+                <p>
+                <a class="btn btn-link" id="see-more" data-toggle="collapse" href="#more-about-me" role="button" aria-expanded="false" aria-controls="more-about-me">   
+                more about me ...
+                </a>
+                <a class="btn btn-link" id="see-less" data-toggle="collapse" href="#more-about-me" role="button" aria-expanded="true" aria-controls="more-about-me">
+                ... less about me
+                </a>
+                </p>
+                <div class='collapse' id='more-about-me'>
+                    <p>I learn very quickly, I’m motivated, and have a positive attitude. I recently spent three months General Assembly (420 hours of instruction), becoming a dedicated and proficient programmer. I’ve developed several full-stack web apps, specifically using the MERN-stack, among other technologies. Most importantly, I learned how to debug, problem solve, and continue to self teach. I take pride in my work and I’m continuously looking for ways to grow as a developer and a teammate. I approach problems and tasks as puzzles that can be solved and love analyzing the different ways the pieces fit together to create a whole picture that results in a great experience for the user and for my teammates.</p> 
+                    <p>When I'm not programming, I'm usually found gardening, hiking with my dog, eating all the foods, traveling to somewhere new, reading a book, supporting a local sports team (go Kings go!), or riding my bike at CicLAvia!</p>
+                </div>
+            </div>
             </div>
                 <h1 id="connect-with-me">connect with me:</h1>
                 <a class="btn btn1" href='https://www.linkedin.com/in/erinjohnson47/' role='button' target='_blank'>LinkedIn</a></button>
