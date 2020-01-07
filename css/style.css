@@ -1,21 +1,19 @@
 .bg {
-    /* The image used */
-    background-image: url("../images/Portfolio-Background.png");
-    background-repeat: no-repeat;
-    background-size: cover;    
-    background-attachment: fixed;
+    background: repeating-linear-gradient(135deg, rgb(141, 104, 165), rgb(4, 216, 195) 25%, rgb(242, 202, 4), rgb(242, 182, 4), rgb(242, 124, 55) 50%);
+    background-size: cover;
+    background-position: top; /* controls how image is resized within viewport */
 }
 /* font/color variables */
 :root {
     --header-font: 'Shadows Into Light', cursive;
     --body-font: 'Raleway', sans-serif;
-    --purple-color:  #8D68A5;
+    --purple-color:  rgb(141, 104, 165);
     --purple-hover: rgb(122, 88, 147);
-    --teal-color: #04D8C3;
+    --teal-color: rgb(4, 216, 195);
     --teal-hover: rgb(3, 179, 161);
-    --yellow1-color: #F2CA04;
-    --yellow2-color: #F2B604;
-    --orange-color: #F27C37;
+    --yellow1-color: rgb(242, 202, 4);
+    --yellow2-color: rgb(242, 182, 4);
+    --orange-color: rgb(242, 124, 55);
     --orange-hover: rgb(242, 99, 16);
 }
 
